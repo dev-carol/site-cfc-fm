@@ -1,0 +1,16 @@
+{
+  "links" :[
+    {
+      "path": "/",
+      "label": "Home"
+    },
+    {
+      "path": "/aulas",
+      "label": "Aulas"
+    }, 
+    {
+      "path": "/contato",
+      "label": "Contato"
+    }
+  ]
+}
