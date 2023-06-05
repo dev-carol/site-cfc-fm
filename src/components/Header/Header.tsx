@@ -53,13 +53,14 @@ interface HeaderSimpleProps {
 export function HeaderMenu({ links }: HeaderSimpleProps) {
   const [opened, { toggle }] = useDisclosure(false);
   const location = useLocation();
-  const { classes, cx } = useStyles();
+  const { classes } = useStyles();
 
   const items = links.map((link) => (
     <Link
       key={link.label}
       to={link.path ? link.path : ''}
-      className={cx(classes.link, { [classes.linkActive]: location.pathname === link.path })}
+      className={`${classes.link} ${location.pathname === link.path ? classes.linkActive : ''}`}
+
     >
       {link.label}
     </Link>
