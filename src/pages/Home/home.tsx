@@ -95,7 +95,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 export function Home() {
-  const { classes, cx } = useStyles();
+  const { classes } = useStyles();
   const tuneInUrl = 'https://www-radiotoca-com-br.filesusr.com/html/272420_89a6a18dee4cb3f84604873499d18f86.html';
   return (
     <div className={classes.wrapper}>
