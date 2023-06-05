@@ -1,11 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from '../pages/Home/home';
-import CFCPage from '../pages/CnhSp/cfc';
+
 import { HeaderMenu } from '../components/Header/Header';
 import links from "../components/Header/links.json"
+import { Home } from '../pages/Home/home';
 import { FooterSocial } from '../components/Footer/Footer';
+import { AulasPage } from '../pages/Aulas/aulas';
+import { SimuladorPage } from '../pages/SimuladosDetran/simulador-detran';
+import { ContatoPage } from '../pages/Contato/contato';
 
 
 const AppRoutes: React.FC = () => {
@@ -16,7 +19,10 @@ const AppRoutes: React.FC = () => {
   
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cnh-sp" element={<CFCPage />} />
+        <Route path="/simulador" element={<SimuladorPage />} />
+        <Route path="/aulas" element={<AulasPage />} />
+        <Route path="/contato" element={<ContatoPage />} />
+        
       </Routes>
       
       <FooterSocial/>

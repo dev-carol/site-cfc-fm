@@ -5,9 +5,14 @@
       "label": "Home"
     },
     {
+      "path": "/simulador",
+      "label": "Simulador Detran"
+    }, 
+    {
       "path": "/aulas",
       "label": "Aulas"
     }, 
+  
     {
       "path": "/contato",
       "label": "Contato"
