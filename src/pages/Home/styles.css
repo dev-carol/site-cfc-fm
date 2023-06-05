@@ -17,10 +17,13 @@
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  
 }
 
 .img-car {
   width: 100%;
+  height: 100%;
+
 }
 
 .iframe {
@@ -31,4 +34,5 @@
   height: 100%;
   z-index: 1;
   opacity: 0.2;
+  background-color: transparent;
 }

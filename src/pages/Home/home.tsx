@@ -6,10 +6,9 @@ const HomePage = () => {
     <>
       <div className="container-homepage">
         <div>
-          <h2 className="title">CFC Fom Fom desde 1999 formando motoristas!</h2>
-          <span> Oferecemos cursos de Primeira Habilitação e Reciclagemo</span>
+          <h2 className="title">CFC FM desde 2023 formando motoristas!</h2>
+          <span> Oferecemos cursos de primeira habilitação e músicas para ouvir enquanto dirige</span>
         </div>
-
 
         <div className="box-img">
           <img src="https://i.gifer.com/2iDN.gif"className="img-car" />
